@@ -1,0 +1,20 @@
+
+(** This loads the compiled modules from this directory *)
+#directory "_build";;
+#camlp4o;;
+#require "core_extended";;
+#load "str.cma";;
+#load "ast.cmo";;
+#load "vecAst.cmo";;
+#load "lexer.cmo";;
+#load "parser.cmo";;
+#load "vector.cmo";;
+#load "table.cmo";;
+
+open Core_extended;;
+open Ast;;
+open VecAst;;
+open Lexer;;
+open Parser;;
+open Vector;;
+open Table;;
