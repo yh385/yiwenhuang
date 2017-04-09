@@ -1,7 +1,6 @@
 # breakout.py
 # Yiwen Huang (yh385) and Vicky Chou (vc265)
 # December 11, 2015
-# We asked Albert Kung (ak722) for help on countdown(self).
 """Primary module for Breakout application
 
 This module contains the main controller class for the Breakout application.
